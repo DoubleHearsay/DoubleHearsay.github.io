@@ -1,0 +1,48 @@
+<html>
+<head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    
+<style>
+ h1, p { color:blue;
+    text-align:center;
+    font-variant: small-caps;
+    font-family: "Times New Roman", Times, serif;
+ }
+ 
+#stuff {color:red; 
+text-align: right;
+}
+h1 {border-style:ridge;}
+  
+</style>
+</head>
+<body style="background-color:powderblue;">
+
+
+Kantent
+
+<h1>-PLATO-</h1>
+<P>New Approaches to the Use of Technology</P>
+
+<img src="book.jpg" alt="book.jpg" height="90" width="90">
+<p><a href="http://www.theschooloflife.com/london/">This is a link.</a></p>
+The <abbr title="Plato Organization of Philosophy">POOP</abbr> is not really a thing unless you'd like it to be one.
+<P>Take the <abbr title="Stuff and Things">SAT</abbr></P>
+
+<head><style>table, th, td {border: 10px solid red;}</style></head><body><table>
+    <tr>
+      <th>Existentialism</th>
+      </tr>
+      <tr>
+        <td> <a href="https://www.google.com/">Stuff</a></td>
+        <td>things</td>
+      </tr>
+</table></body>
+<p><bdo dir="rtl">I really like to talk about philosophy, escepecially philosophy. I really ought to start some CSS.</bdo></p>
+</body>
+</html>
