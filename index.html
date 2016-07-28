@@ -124,5 +124,51 @@ body
       
 		</script>
 		<img id="currentImage" />
+	<script>
+    
+    	// This is the current index we're showing in the image array.
+      var currentImageIndex = 0;
+
+			// This is the list of images we'll rotate through.
+      var images = [							
+        "PLATO.png",
+        "school of athens.jpg",
+        "thusspoke.jpg",
+        "wave.png"
+      ];
+
+			// This function will update the image and the image index.
+			function updateImage() {
+
+				// Find the image to update.
+				var image = document.getElementById("#f3f3f3 url('PLATO.png') no-repeat right top");
+
+				// Assign the "src" attribute the new URL.
+				image.src = images[currentImageIndex];
+        
+        // Move to the next index.
+        currentImageIndex = currentImageIndex + 1;
+        
+        // If we've passed the end of the array, start over at 0.
+        if(currentImageIndex >= images.length)
+        	currentImageIndex = 0;
+
+			}
+      
+      // Set an interval timer that calls updateImage() every 1000 milliseconds
+      setInterval(updateImage, 4000);
+      
+		</script>
+
+<button onclick="myFunction()">Set background</button>
+
+<script>
+function myFunction() {
+    document.body.style.background = "#f3f3f3 url('PLATO.png') no-repeat right top";
+}
+</script>
+
+</body>
+</html>
 
 </head>
