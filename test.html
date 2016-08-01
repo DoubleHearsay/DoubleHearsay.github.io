@@ -22,6 +22,24 @@ h2{text-align:left;
 {font-size:400%;
 padding-bottom:70px;
 }
+<script>
+			function handleClick() {
+
+				// Find the element with the ID “thingToClick” and store it
+				// This uses the pre-defined “document” object, which stores
+				// all of the HTML in the page.
+				var element = document.getElementById("thingToClick");
+
+				// Change the property “innerHTML” of the element,
+				// which represents all of the HTML inside the element.
+				element.innerHTML = "RADICAL FREEEEEEEEEEEEEEEEEEEEEEEEEEEEEDOM! You might want to refresh the page.";
+
+				// Change the CSS background of the element to red.
+				element.style.backgroundColor = "red";
+				 $("div").empty();
+
+			}
+		</script>
 .container{padding:90px
 width:400px
 height:300px
@@ -48,7 +66,7 @@ body
         
         <p><div class="Container">
           <div class="row">
-          <div class="col-md-2"><h1><b>Radical Freedom</b></h1></div>
+          <div id="thingToClick" onclick="handleClick();" class="col-md-2"><h1><b>Radical Freedom</b></h1></div>
         <div class="col-md-8"><p><h3>Bonjour...I'm Jean-Paul Sartre. Just call me Sartre. In fact, don't call me at all. I enjoy being alone. 
        Now I've heard you need some help making choices?</h3></p><br>
        <p><ul>
