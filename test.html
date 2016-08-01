@@ -91,5 +91,27 @@ body
         <div class="col-md-2"> <img src="chivalry.jpg"  style="width:220px;height:288px;"></div>
         </div></p>
         </head>
+        <head>
+		<script>
+			function handleClick() {
+
+				// Find the element with the ID “thingToClick” and store it
+				// This uses the pre-defined “document” object, which stores
+				// all of the HTML in the page.
+				var element = document.getElementById("thingToClick");
+
+				// Change the property “innerHTML” of the element,
+				// which represents all of the HTML inside the element.
+				element.innerHTML = "You clicked me";
+
+				// Change the CSS background of the element to red.
+				element.style.backgroundColor = "red";
+
+			}
+		</script>
+	</head>
+  <body>
+		<div id="thingToClick" onclick="handleClick();">Click me!</div>
+  </body>
         </html>
         
