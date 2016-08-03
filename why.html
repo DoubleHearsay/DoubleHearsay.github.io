@@ -1,6 +1,25 @@
 <html>
 <head>
-  
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ctx.font = "20px Times";
+ctx.fillText("", 10, 50);
+
+ctx.font = "20px Times";
+// Create gradient
+var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+gradient.addColorStop("0", "magenta");
+gradient.addColorStop("0.5", "blue");
+gradient.addColorStop("1.0", "red");
+// Fill with gradient
+ctx.fillStyle = gradient;
+ctx.fillText("We Need a Mental Compass Regardless Of How Smart We Are; For When Will Our Actions Go Too Far?", 10, 90);
+
+</script>
+  </script>
 
     
 
@@ -65,7 +84,8 @@ body
 <div class= "row">
     <div class="col-md-4"></div>
 
-    <div id="c1" class="circle col-md-4"><a href="Ethics.html">We're Not Computers, But We Need a Mental Compass Regardless; For When Will Our Actions Go Too Far?</a></div>
+    <div id="c1" class="circle col-md-4"><a href="Ethics.html"><canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+We Need a Mental Compass Regardless Of How Smart We Are; For When Will Our Actions Go Too Far?</canvas></a></div>
     <div class="col-md-4"></div>
     </div>
     
@@ -73,10 +93,10 @@ body
     
 <div class= "row">
     <div class="col-md-2"></div>
-    <div id="c2" class="circle col-md-4"><a href="Conflict.html">We Need an Answer, and We're the Only Ones Who Can Get It. Truely, No One Really Knows What's Going On</a></div>
+    <div id="c2" class="circle col-md-4"><a href="Conflict.html">We Need an Answer. Truely, No One Really Knows What's Going On</a></div>
   
 
-    <div id="c3" class="circle col-md-4"><a href="Values.html">It's Up to Us to Choose What We Care For; That's One of the Only Things We CAN Control</a></div>
+    <div id="c3" class="circle col-md-4"><a href="Values.html">We Choose What We Care For; That's One of the Only Things We CAN Control</a></div>
    
       <div class="col-md-2"></div>
 </div>
